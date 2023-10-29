@@ -1,0 +1,424 @@
+body{
+  padding: 0;
+  margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+   box-sizing: border-box;
+   
+
+} 
+header{
+width: 100%;
+height: 100px;
+position: fixed;
+top: -25px;
+background-color: #fff;
+overflow: hidden;
+z-index: 1;
+}
+
+
+header div {
+ float: left;
+ justify-content: space-between;
+ align-items: center;
+}
+   header .logo{
+     
+    margin-left: 250px;
+    padding: 60px;
+    top: 50px;
+
+
+
+
+   }
+   header .navbar{
+    position: absolute;
+    top: 70px;
+    left: 800px;
+    margin-right: 0px;
+   
+    
+   }
+
+.navbar ul {
+  list-style: none;
+
+}
+.navbar ul li {
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  float: left;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 0px;
+  padding-right: 0px;
+  
+
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: #7f97ff;  ;
+}
+.navbar ul li a:hover{
+ background-color: rgb(219, 206, 206);
+ transition: all ease-in-out 0.5s;
+}
+
+.navbar ul li:hover > ul{
+ display: block;
+ color: #cf0be0;
+ box-sizing: border-box;
+ border-style: solid;
+ border-radius: 100% ;
+ transition: all ease-in 0.5s;
+
+}
+.checKbtn{
+display: none;
+}
+#checK{
+display: none;
+}
+
+.section1{
+ background-color: #f9f9ff;
+ width: 100%;
+ height: 800px;
+ display: flex;
+ 
+ justify-content: space-between;
+ align-items: center;
+ margin-top: 75px;
+}
+.h1 .h2 {
+ width: 50%;
+}
+
+ .h1{
+padding: 500px;
+padding-left: 250px;
+top:65px ;
+text-transform: uppercase;
+color: #8196ff ;
+
+
+font-size: 20px ;
+ }
+ .h2 img {
+    padding-right: 230px;
+
+ }
+ 
+.h1 h1 {
+ font-weight: normal;
+  font-size: 30px;
+  font-weight: bold;
+
+}
+.h1 h2 {
+ font-size: 50px;
+}
+.h1 p{
+ color: rgba(78, 76, 76 , 0.7);
+}
+.h1 input {
+ padding: 8px 20px ;
+ background-color: #8196ff;
+ outline: none;
+ color: white;
+ border: 1px solid #8196ff;
+ font-size: 15px;
+}
+.h1 input:hover{
+ box-shadow: 5px 10px 30px;
+ color: rgba(116, 117, 121, 0.8);
+ transition: all .05s ease-in 0.25s;
+ outline: none;
+}
+ /*section oneend*/
+
+ /*section tow start*/
+ .section2{
+  width: 100%;
+  height: 620px;
+  display: flex;
+  justify-content: center;
+     align-items: center;
+ }
+ .section2 div{
+  width: 40%;
+  margin: 0 auto;
+ }
+ .section2 img {
+  max-width: 70%;
+  height: auto;
+
+ }
+ .section2 .img2{
+  padding-left: 350px;
+ }
+ .text h3{
+  font-weight: normal;
+  color: rgba(0,0,0,0.7);
+  font-size: 15px;
+ }
+ .text h1{
+  font-weight: bold;
+  font-size: 40px;
+
+ }
+ .text p{
+  font-size: 18px;
+  color: rgba(0,0,0,0.6);
+  width: 80%;
+ }
+ .text input{
+  font-size: 15px;
+  padding: 15px 22px;
+  outline: none;
+  color: white;
+  background-color:#8293ff ;
+  border: none;
+ }
+ .text input:hover{
+  box-shadow: 5px 10px 30px;
+ color: rgba(116, 117, 121, 0.5);
+ transition: all .05s ease-in 0.1s;
+outline: none}
+
+/*SECTION TOW END*/
+/*SECTION THREE START*/
+
+
+.section3{
+width: 100%;
+height: 650px;
+margin:  0 auto;
+text-align: center;
+}
+.section3 .text2 h1 {
+font-size: 40px;
+font-weight: bold;
+line-height: 10px;
+}
+.text2 p{
+width: 670px;
+color: rgba(0,0,0,0.6);
+margin: 0 auto;
+}.service{
+width: 80%;
+margin: 0 auto;
+padding-top: 45px;
+}
+.ser1, .ser2{
+width: 100%;
+overflow: hidden;
+}
+.ser2{
+padding-top: 30px;
+}
+.ser1 div, .ser2 div{
+width: 32%;
+float: left;
+padding: 5px;
+margin: 0 auto;
+}
+.service i{
+font-size: 45px;
+color: rgba(0,0,0,0.7);
+}
+.service h1 {
+color: rgba(0,0,0,0.7);
+}
+.service p {
+color: rgba(0,0,0,0.6);
+}
+/*END*/
+/*SECTION FOUR START*/
+.section4{
+width: 100%;
+height: 350PX;
+background-color: #8293ff;
+}
+.section4 h1 {
+font-size: 45px;
+line-height: 10px;
+}
+.section4 div {
+float: left;
+width: 20%;
+margin: 0 auto;
+position: relative;
+top: 100px;
+left: 300px;
+}
+.section4 h1,p {
+text-align: center;
+color: white;
+}
+/*PORTFOLIO START*/
+.section5 {
+  width: 100%;
+  box-sizing: border-box;
+}
+.section5 .text5{
+  text-align: center;
+  padding: 100px 0;
+}
+.section5 .text5 h1{
+font-size: 40px;
+color: rgba(0,0,0,0.9);
+}
+.section5 .text5 h3 {
+color: rgba(0,0,0,0.7);
+margin-top: -20px;
+margin-bottom: 30px;
+font-family: initial;
+}
+.section5 .immg{
+width: 55%;
+height: auto;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+margin: 0 auto;
+}
+.section5 .immg div {
+width: 340px;
+height: 339px;
+padding-bottom: 100px;
+text-align: center;
+}
+.section5 .immg h1 {
+font-size: 20px;
+color: rgba(0,0,0,0.9);
+}
+.section5 .immg h2 {
+color: rgba(0,0,0,0.7);
+line-height: 0;
+}
+.section5 figure{
+background: linear-gradient(40deg ,#8490ff 40% ,#62bdfc 100% );
+width: 340px ;
+height: 339px;
+margin: 0;
+padding: 0;
+overflow: hidden;
+border-radius: 3%;
+}
+.section5 figure:hover  img { 
+opacity: 0.3;
+transition: all 0.3s ease-in-out;
+}
+/*SECTION5 END*/
+
+/*PRICING TABLE START*/
+.section6{
+width: 100%;
+height: 700px;
+padding-top: 50px;
+}
+.section6 .text6{
+text-align: center;
+padding: 2% 0 ;
+
+}
+.section6 .text6 h1 {
+font-size: 50px;
+line-height: 0;
+padding-top: 15px;
+}
+.section6 .card1 .price{
+font-size:30px;
+} 
+.section6 .text6 h3 {
+color: rgba(0,0,0,0.6);
+}
+.section6 .card {
+width: 75%;
+height: auto;
+display: flex;
+justify-content: space-around;
+margin: 0 auto;
+}
+.section6 .card1 {
+width: 300px;
+height: 600px;
+background-color: rgb(249,249,255);
+text-align: center;
+border: 1px solid rgba(0,0,0,0.1);
+}
+.section6 .card1 h1 {
+font-size: 50px;
+padding-top: 8px;
+}
+.section6 .card1 input{
+outline: none;
+background-color: #8293ff;
+color: white;
+font-size: 25px;
+padding: 6px 60px;
+font-family: initial;
+font-weight: bold;
+border: 1px solid white;
+cursor: pointer;
+}
+.section6 .card1:hover{
+background-color: #8293ff;
+color: white;
+transition: all 0.50s ease-in-out ;
+transform: scale(1.05);
+border: 1px solid rgba(130, 147, 255, 0.5);
+box-shadow: 0 8px 12px 1 rgba(0,0,0,0.6);
+}
+.section6 .card1:hover input{
+color: rgba(0,0,0,0.9);
+background-color: white;
+}
+/*END*/
+footer{
+background-color: rgb(4,9,30);
+width: 100%;
+height: 400px;
+position: absolute;
+margin-top: 200px ;
+color: white;
+}
+footer .foot {
+width: 80%;
+height: auto;
+display: flex;
+justify-content:space-around ;
+margin: 0 auto;
+margin-top: 102px;
+}
+footer .foot .foot1 p {
+color: rgba(255,255,255,0.5 );
+}
+footer .foot .foot1 input{
+font-size: 15px;
+outline: none;
+ border: none;
+ padding: 10px 150px 10px;
+}
+footer .foot .foot1  button{
+font-size: 18px ;
+color: white;
+background-color: #8293ff;
+outline: none;
+border: none;
+cursor: pointer;
+padding: 8px 15px;
+}
+footer .foot .foot1 i {
+font-size: 15px;
+cursor: pointer;
+padding: 2px 5px ;
+}
+footer .foot .foot1 i:hover{
+color: #8293ff;
+}
+# Noman-Portfolio-1
